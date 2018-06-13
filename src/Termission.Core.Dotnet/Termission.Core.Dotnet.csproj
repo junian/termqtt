@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>Juniansoft.Termission.Core</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Termission.Core\Termission.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SerialPortStream" Version="2.0.3" />
+  </ItemGroup>
+    
+</Project>

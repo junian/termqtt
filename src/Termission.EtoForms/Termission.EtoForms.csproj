@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>Juniansoft.Termission.EtoForms</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Eto.Forms" Version="2.4.1" />
+    <PackageReference Include="Mono.Options" Version="5.3.0.1" />
+    <PackageReference Include="MvvmReady" Version="1.2.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Termission.Core\Termission.Core.csproj" />
+    <ProjectReference Include="..\Termission.Core.Dotnet\Termission.Core.Dotnet.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\resources\DevAppIcon.ico">
+      <Link>Resources\DevAppIcon.ico</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\DevAppLogo.png">
+      <Link>Resources\DevAppLogo.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\tango-icons\DocumentNew.png">
+      <Link>Resources\DocumentNew.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\tango-icons\DocumentOpen.png">
+      <Link>Resources\DocumentOpen.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\tango-icons\DocumentSave.png">
+      <Link>Resources\DocumentSave.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\tango-icons\DocumentSaveAs.png">
+      <Link>Resources\DocumentSaveAs.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\tango-icons\MediaRecord.png">
+      <Link>Resources\MediaRecord.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\tango-icons\MediaStart.png">
+      <Link>Resources\MediaStart.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\tango-icons\Preferences.png">
+      <Link>Resources\Preferences.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\tango-icons\Refresh.png">
+      <Link>Resources\Refresh.png</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\tango-icons\Terminal.png">
+      <Link>Resources\Terminal.png</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+    
+</Project>

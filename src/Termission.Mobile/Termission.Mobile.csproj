@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Juniansoft.Termission.Mobile</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.446417" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
+    <PackageReference Include="MvvmReady" Version="1.2.0" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <ProjectReference Include="..\Termission.Core\Termission.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\resources\codemirror\codemirror.css">
+      <Link>Resources\codemirror.css</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\codemirror\codemirror.js">
+      <Link>Resources\codemirror.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\codemirror\codemirror-editor.html">
+      <Link>Resources\codemirror-editor.html</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\codemirror\codemirror-mode-javascript.js">
+      <Link>Resources\codemirror-mode-javascript.js</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\resources\DevAppLogo.png">
+      <Link>Resources\DevAppLogo.png</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+    
+</Project>

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <RootNamespace>Juniansoft.Termission.Core</RootNamespace>
+    <Title>Termission</Title>
+    <Copyright>Copyright © 2018</Copyright>
+    <Description>Cross-platform Serial / TCP terminal</Description>
+    <Company>Juniansoft</Company>
+    <Product>Termission</Product>
+    <AssemblyVersion>0.1.7</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <Version>$(AssemblyVersion)</Version>
+    <PackageVersion>$(AssemblyVersion)</PackageVersion>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="MvvmReady" Version="1.2.0" />
+    <PackageReference Include="CommonMark.NET" Version="0.15.1" />
+    <PackageReference Include="LitJson" Version="0.13.0" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
+    <PackageReference Include="Jint" Version="2.11.58" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\ACKNOWLEDGMENTS.md">
+      <Link>Resources\ACKNOWLEDGMENTS.md</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\DOCUMENTATION.md">
+      <Link>Resources\DOCUMENTATION.md</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Engines\Scripts\Program.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' " />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <Compile Remove="Engines\Scripts\Program.cs" />
+  </ItemGroup>
+    
+</Project>

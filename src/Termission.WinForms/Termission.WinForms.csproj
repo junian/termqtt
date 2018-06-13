@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <ApplicationIcon>..\..\resources\DevAppIcon.ico</ApplicationIcon>
+    <AssemblyName>Termission</AssemblyName>
+    <RootNamespace>Juniansoft.Termission.WinForms</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Eto.Platform.Windows" Version="2.4.1" />
+    <PackageReference Include="FCTB" Version="2.16.21" />
+    <PackageReference Include="MvvmReady" Version="1.2.0" />
+    <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Termission.Core\Termission.Core.csproj">
+      <TargetFramework>net461</TargetFramework>
+    </ProjectReference>
+    <ProjectReference Include="..\Termission.Core.Dotnet\Termission.Core.Dotnet.csproj" />
+    <ProjectReference Include="..\Termission.EtoForms\Termission.EtoForms.csproj" />
+  </ItemGroup>
+</Project>
