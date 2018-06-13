@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Juniansoft.Termission.Core.Events
+namespace Juniansoft.Termqtt.Core.Events
 {
     public class MessageResponseReceivedArgs: EventArgs
     {

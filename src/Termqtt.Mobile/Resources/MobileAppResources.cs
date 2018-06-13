@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using Xamarin.Forms;
 
-namespace Juniansoft.Termission.Mobile.Resources
+namespace Juniansoft.Termqtt.Mobile.Resources
 {
     public static class MobileAppResources
     {

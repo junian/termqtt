@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Juniansoft.Termission.Core.Constants
+namespace Juniansoft.Termqtt.Core.Constants
 {
     public static class EtoStyles
     {

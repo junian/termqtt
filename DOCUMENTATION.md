@@ -1,4 +1,4 @@
-﻿# Termission
+﻿# Termqtt
 
 Cross-platform Serial/TCP Terminal with Scriptable Auto-Response.
 
@@ -33,4 +33,4 @@ This project is possible to build thanks to following libraries:
 
 ## License
 
-This project is licensed under [GPL-3.0](https://github.com/junian/termission/blob/master/LICENSE).
+This project is licensed under [GPL-3.0](https://github.com/junian/termqtt/blob/master/LICENSE).

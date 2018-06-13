@@ -7,7 +7,7 @@ using Eto;
 using Eto.WinForms;
 using Eto.WinForms.Forms;
 
-namespace Juniansoft.Termission.WinForms.Controls
+namespace Juniansoft.Termqtt.WinForms.Controls
 {
 	public class NotificationHandler : WidgetHandler<swf.Control, Notification, Notification.ICallback>, Notification.IHandler
 	{

@@ -1,5 +1,5 @@
 ﻿using Juniansoft.MvvmReady;
-using Juniansoft.Termission.Core.Helpers;
+using Juniansoft.Termqtt.Core.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace Juniansoft.Termission.Core.ViewModels
+namespace Juniansoft.Termqtt.Core.ViewModels
 {
     public class PreferencesViewModel : CoreViewModel
     {

@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using Mono.CSharp;
 
-namespace Juniansoft.Termission.Core.Engines.Scripts
+namespace Juniansoft.Termqtt.Core.Engines.Scripts
 {
     public class CSharpMcsScriptEngine : BaseCSharpScriptEngine
     {

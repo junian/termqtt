@@ -1,7 +1,7 @@
 ﻿using System;
-using Juniansoft.Termission.Core.Resources;
+using Juniansoft.Termqtt.Core.Resources;
 
-namespace Juniansoft.Termission.Core.ViewModels
+namespace Juniansoft.Termqtt.Core.ViewModels
 {
     public class HelpViewModel: BaseViewModel
     {

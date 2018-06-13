@@ -1,7 +1,7 @@
 ﻿using System;
-using Juniansoft.Termission.Core.Events;
+using Juniansoft.Termqtt.Core.Events;
 
-namespace Juniansoft.Termission.Core.ViewModels
+namespace Juniansoft.Termqtt.Core.ViewModels
 {
     public class CoreViewModel: BaseViewModel
     {

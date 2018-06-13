@@ -9,16 +9,16 @@ using Eto.Forms;
 using Eto.WinForms.Forms;
 using Eto.WinForms.Forms.Controls;
 using Juniansoft.MvvmReady;
-using Juniansoft.Termission.Core;
-using Juniansoft.Termission.Core.Constants;
-using Juniansoft.Termission.Core.Services;
-using Juniansoft.Termission.EtoForms;
-using Juniansoft.Termission.EtoForms.Controls;
-using Juniansoft.Termission.EtoForms.Forms;
-using Juniansoft.Termission.WinForms.Controls;
-using Juniansoft.Termission.WinForms.Services;
+using Juniansoft.Termqtt.Core;
+using Juniansoft.Termqtt.Core.Constants;
+using Juniansoft.Termqtt.Core.Services;
+using Juniansoft.Termqtt.EtoForms;
+using Juniansoft.Termqtt.EtoForms.Controls;
+using Juniansoft.Termqtt.EtoForms.Forms;
+using Juniansoft.Termqtt.WinForms.Controls;
+using Juniansoft.Termqtt.WinForms.Services;
 
-namespace Juniansoft.Termission.WinForms
+namespace Juniansoft.Termqtt.WinForms
 {
 	class Program
 	{

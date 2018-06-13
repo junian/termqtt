@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B19C892E-2628-4CA7-AD27-08D406A3B14B}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>Termission.Mobile.UITests</RootNamespace>
-    <AssemblyName>Termission.Mobile.UITests</AssemblyName>
+    <RootNamespace>Termqtt.Mobile.UITests</RootNamespace>
+    <AssemblyName>Termqtt.Mobile.UITests</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -32,15 +32,15 @@
     <PackageReference Include="Xamarin.UITest" Version="2.2.2" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Termission.Mobile.iOS\Termission.Mobile.iOS.csproj">
+    <ProjectReference Include="..\Termqtt.Mobile.iOS\Termqtt.Mobile.iOS.csproj">
       <Project>{F6A287A7-A8EF-4890-940E-64C069B86B1C}</Project>
-      <Name>Termission.Mobile.iOS</Name>
+      <Name>Termqtt.Mobile.iOS</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="..\Termission.Mobile.Android\Termission.Mobile.Android.csproj">
+    <ProjectReference Include="..\Termqtt.Mobile.Android\Termqtt.Mobile.Android.csproj">
       <Project>{CFCA35FD-7D79-4DD6-8208-91F701DCAC1E}</Project>
-      <Name>Termission.Mobile.Android</Name>
+      <Name>Termqtt.Mobile.Android</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>

@@ -3,13 +3,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using Android.Content;
 using Android.Webkit;
-using Juniansoft.Termission.Mobile.Controls;
-using Juniansoft.Termission.Mobile.Droid.Controls;
+using Juniansoft.Termqtt.Mobile.Controls;
+using Juniansoft.Termqtt.Mobile.Droid.Controls;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.Android;
 
 [assembly: ExportRenderer(typeof(CodeMirrorEditor), typeof(CodeMirrorEditorRenderer))]
-namespace Juniansoft.Termission.Mobile.Droid.Controls
+namespace Juniansoft.Termqtt.Mobile.Droid.Controls
 {
     public class CodeMirrorEditorRenderer: WebViewRenderer
     {

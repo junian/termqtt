@@ -1,7 +1,7 @@
 ﻿using System;
-namespace Juniansoft.Termission.Core
+namespace Juniansoft.Termqtt.Core
 {
-    public interface ITermissionApp
+    public interface ITermqttApp
     {
         void Run(string[] args);
         void RegisterServices();

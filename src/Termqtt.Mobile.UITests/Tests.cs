@@ -5,7 +5,7 @@ using NUnit.Framework;
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
 
-namespace Termission.Mobile.UITests
+namespace Termqtt.Mobile.UITests
 {
     [TestFixture(Platform.Android)]
     [TestFixture(Platform.iOS)]

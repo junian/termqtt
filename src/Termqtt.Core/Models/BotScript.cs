@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Juniansoft.Termission.Core.Enums;
-using Juniansoft.Termission.Core.Helpers;
+using Juniansoft.Termqtt.Core.Enums;
+using Juniansoft.Termqtt.Core.Helpers;
 
-namespace Juniansoft.Termission.Core.Models
+namespace Juniansoft.Termqtt.Core.Models
 {
     public class BotScript
     {

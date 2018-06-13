@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 using Eto.Drawing;
 
-namespace Juniansoft.Termission.EtoForms.Resources
+namespace Juniansoft.Termqtt.EtoForms.Resources
 {
     public static class DesktopAppResources
     {

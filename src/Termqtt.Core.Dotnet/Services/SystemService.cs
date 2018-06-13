@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.IO.Ports;
 using System.Linq;
-using Juniansoft.Termission.Core.Helpers;
+using Juniansoft.Termqtt.Core.Helpers;
 
-namespace Juniansoft.Termission.Core.Services
+namespace Juniansoft.Termqtt.Core.Services
 {
     public class SystemService: ISystemService
     {

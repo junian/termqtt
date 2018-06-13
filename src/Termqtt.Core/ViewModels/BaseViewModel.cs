@@ -1,7 +1,7 @@
 ﻿using System;
 using Juniansoft.MvvmReady;
 
-namespace Juniansoft.Termission.Core.ViewModels
+namespace Juniansoft.Termqtt.Core.ViewModels
 {
     public class BaseViewModel: ViewModelBase
     {

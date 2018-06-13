@@ -5,17 +5,17 @@ using Eto.Mac.Forms;
 using Eto.Mac.Forms.Controls;
 using Eto.Mac.Forms.ToolBar;
 using Juniansoft.MvvmReady;
-using Juniansoft.Termission.Core;
-using Juniansoft.Termission.Core.Constants;
-using Juniansoft.Termission.Core.Engines.Scripts;
-using Juniansoft.Termission.Core.Services;
-using Juniansoft.Termission.EtoForms;
-using Juniansoft.Termission.EtoForms.Controls;
-using Juniansoft.Termission.EtoForms.Forms;
-using Juniansoft.Termission.Mac.Controls;
-using Juniansoft.Termission.Mac.Services;
+using Juniansoft.Termqtt.Core;
+using Juniansoft.Termqtt.Core.Constants;
+using Juniansoft.Termqtt.Core.Engines.Scripts;
+using Juniansoft.Termqtt.Core.Services;
+using Juniansoft.Termqtt.EtoForms;
+using Juniansoft.Termqtt.EtoForms.Controls;
+using Juniansoft.Termqtt.EtoForms.Forms;
+using Juniansoft.Termqtt.Mac.Controls;
+using Juniansoft.Termqtt.Mac.Services;
 
-namespace Juniansoft.Termission.XamMac
+namespace Juniansoft.Termqtt.XamMac
 {
 	static class Program
 	{

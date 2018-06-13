@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Juniansoft.Termission.Core.Services
+namespace Juniansoft.Termqtt.Core.Services
 {
     /// <summary>
     /// Description of ComDataConverter.

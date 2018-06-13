@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace Juniansoft.Termission.Core
+namespace Juniansoft.Termqtt.Core
 {
     public static class CoreApp
     {

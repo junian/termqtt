@@ -1,8 +1,8 @@
 ﻿using System;
 using Foundation;
-using Juniansoft.Termission.Core.Services;
+using Juniansoft.Termqtt.Core.Services;
 
-namespace Juniansoft.Termission.Mac.Services
+namespace Juniansoft.Termqtt.Mac.Services
 {
     [Obsolete("Use EtoForms NotificationService instead")]
     public class NotificationService: INotificationService

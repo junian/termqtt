@@ -2,10 +2,10 @@
 using System.Reflection;
 using Eto.Drawing;
 using Eto.Forms;
-using Juniansoft.Termission.Core;
-using Juniansoft.Termission.EtoForms.Resources;
+using Juniansoft.Termqtt.Core;
+using Juniansoft.Termqtt.EtoForms.Resources;
 
-namespace Juniansoft.Termission.EtoForms.Forms
+namespace Juniansoft.Termqtt.EtoForms.Forms
 {
     public class AboutForm : Dialog
     {

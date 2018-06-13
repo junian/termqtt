@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Juniansoft.Termission.Core;
-using Juniansoft.Termission.Mobile.Resources;
+using Juniansoft.Termqtt.Core;
+using Juniansoft.Termqtt.Mobile.Resources;
 using Xamarin.Forms;
 
-namespace Juniansoft.Termission.Mobile.Pages
+namespace Juniansoft.Termqtt.Mobile.Pages
 {
     public partial class AboutPage : ContentPage
     {

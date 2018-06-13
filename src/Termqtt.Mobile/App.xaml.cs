@@ -1,15 +1,15 @@
 using Juniansoft.MvvmReady;
-using Juniansoft.Termission.Core;
-using Juniansoft.Termission.Core.Services;
-using Juniansoft.Termission.Core.ViewModels;
-using Juniansoft.Termission.Mobile.Pages;
+using Juniansoft.Termqtt.Core;
+using Juniansoft.Termqtt.Core.Services;
+using Juniansoft.Termqtt.Core.ViewModels;
+using Juniansoft.Termqtt.Mobile.Pages;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-namespace Juniansoft.Termission.Mobile
+namespace Juniansoft.Termqtt.Mobile
 {
-    public partial class App : Application, ITermissionApp
+    public partial class App : Application, ITermqttApp
     {
         public App()
         {

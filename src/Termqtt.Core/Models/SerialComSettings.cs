@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Juniansoft.Termission.Core.Models
+namespace Juniansoft.Termqtt.Core.Models
 {
     public class SerialComSettings
     {

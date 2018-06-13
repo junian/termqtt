@@ -4,19 +4,19 @@ using System.Reflection;
 using Eto;
 using Eto.Forms;
 using Juniansoft.MvvmReady;
-using Juniansoft.Termission.Core;
-using Juniansoft.Termission.Core.Engines.Networks;
-using Juniansoft.Termission.Core.Engines.Scripts;
-using Juniansoft.Termission.Core.Services;
-using Juniansoft.Termission.Core.ViewModels;
-using Juniansoft.Termission.EtoForms.Forms;
-using Juniansoft.Termission.EtoForms.Services;
-using Juniansoft.Termission.EtoForms.Views;
+using Juniansoft.Termqtt.Core;
+using Juniansoft.Termqtt.Core.Engines.Networks;
+using Juniansoft.Termqtt.Core.Engines.Scripts;
+using Juniansoft.Termqtt.Core.Services;
+using Juniansoft.Termqtt.Core.ViewModels;
+using Juniansoft.Termqtt.EtoForms.Forms;
+using Juniansoft.Termqtt.EtoForms.Services;
+using Juniansoft.Termqtt.EtoForms.Views;
 using Mono.Options;
 
-namespace Juniansoft.Termission.EtoForms
+namespace Juniansoft.Termqtt.EtoForms
 {
-    public class MainApplication: Application, ITermissionApp
+    public class MainApplication: Application, ITermqttApp
     {
         public static TrayIndicator TrayIndicator { get; internal set; }
 
@@ -61,16 +61,16 @@ namespace Juniansoft.Termission.EtoForms
             catch (OptionException e)
             {
                 // output some error message
-                Console.Write("termission: ");
+                Console.Write("termqtt: ");
                 Console.WriteLine(e.Message);
-                Console.WriteLine("Try `termission --help' for more information.");
+                Console.WriteLine("Try `termqtt --help' for more information.");
                 return;
             }
 
             if (shouldShowHelp)
             {
                 // show some app description message
-                Console.WriteLine("Usage: termission.exe [OPTIONS]");
+                Console.WriteLine("Usage: termqtt.exe [OPTIONS]");
                 Console.WriteLine("Cross-platform Serial/TCP terminal.");
                 Console.WriteLine();
 

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Juniansoft.Termission.Core.Engines.Scripts
+namespace Juniansoft.Termqtt.Core.Engines.Scripts
 {
     public abstract class BaseJSScriptEngine: BaseScriptEngine
     {

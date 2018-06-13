@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using Juniansoft.Termission.Core.Models;
+using Juniansoft.Termqtt.Core.Models;
 using RJCP.IO.Ports;
 
-namespace Juniansoft.Termission.Core.Engines.Networks
+namespace Juniansoft.Termqtt.Core.Engines.Networks
 {
     public class SerialPortStreamEngine : BaseNetworkEngine
     {

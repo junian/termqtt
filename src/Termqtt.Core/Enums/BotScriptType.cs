@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Juniansoft.Termission.Core.Enums
+namespace Juniansoft.Termqtt.Core.Enums
 {
     public enum BotScriptType
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using Eto.Forms;
 
-namespace Juniansoft.Termission.EtoForms.Services
+namespace Juniansoft.Termqtt.EtoForms.Services
 {
-    public class EtoSystemService: Juniansoft.Termission.Core.Services.SystemService
+    public class EtoSystemService: Juniansoft.Termqtt.Core.Services.SystemService
     {
         public EtoSystemService()
         {

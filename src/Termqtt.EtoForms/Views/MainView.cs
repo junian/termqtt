@@ -3,12 +3,12 @@ using System.IO.Ports;
 using System.Linq;
 using Eto.Drawing;
 using Eto.Forms;
-using Juniansoft.Termission.Core.Constants;
-using Juniansoft.Termission.EtoForms.Controls;
-using Juniansoft.Termission.EtoForms.Resources;
-using Juniansoft.Termission.Core.ViewModels;
+using Juniansoft.Termqtt.Core.Constants;
+using Juniansoft.Termqtt.EtoForms.Controls;
+using Juniansoft.Termqtt.EtoForms.Resources;
+using Juniansoft.Termqtt.Core.ViewModels;
 
-namespace Juniansoft.Termission.EtoForms.Views
+namespace Juniansoft.Termqtt.EtoForms.Views
 {
     public class MainView : Panel
     {

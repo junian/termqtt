@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text;
 using Eto.Forms;
-using Juniansoft.Termission.Core.Resources;
-using Juniansoft.Termission.EtoForms.Resources;
+using Juniansoft.Termqtt.Core.Resources;
+using Juniansoft.Termqtt.EtoForms.Resources;
 
-namespace Juniansoft.Termission.EtoForms.Controls
+namespace Juniansoft.Termqtt.EtoForms.Controls
 {
     public class AceSourceEditor: WebView
     {

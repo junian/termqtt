@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Windows.Input;
 using Eto.Forms;
-using Juniansoft.Termission.Core.Constants;
-using Juniansoft.Termission.EtoForms.MenuCommands;
-using Juniansoft.Termission.EtoForms.Resources;
-using Juniansoft.Termission.Core.ViewModels;
-using Juniansoft.Termission.EtoForms.Views;
+using Juniansoft.Termqtt.Core.Constants;
+using Juniansoft.Termqtt.EtoForms.MenuCommands;
+using Juniansoft.Termqtt.EtoForms.Resources;
+using Juniansoft.Termqtt.Core.ViewModels;
+using Juniansoft.Termqtt.EtoForms.Views;
 using Juniansoft.MvvmReady;
 
-namespace Juniansoft.Termission.EtoForms.Forms
+namespace Juniansoft.Termqtt.EtoForms.Forms
 {
     public class DeviceBotForm : Dialog
     {

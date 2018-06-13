@@ -1,6 +1,6 @@
 ﻿using Eto.Drawing;
 using Eto.Forms;
-using Juniansoft.Termission.Core.ViewModels;
+using Juniansoft.Termqtt.Core.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IO.Ports;
@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Juniansoft.Termission.EtoForms.Views
+namespace Juniansoft.Termqtt.EtoForms.Views
 {
     public class PreferencesView : Panel
     {

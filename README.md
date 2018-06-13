@@ -1,7 +1,7 @@
-[![GitHub release](https://img.shields.io/github/release/junian/termission.svg)](https://github.com/junian/termission/releases)
-[![Github All Releases](https://img.shields.io/github/downloads/junian/termission/total.svg)](https://github.com/junian/termission/releases)
+[![GitHub release](https://img.shields.io/github/release/junian/termqtt.svg)](https://github.com/junian/termqtt/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/junian/termqtt/total.svg)](https://github.com/junian/termqtt/releases)
 
-# Termission
+# Termqtt
 
 Cross-platform Serial/TCP Terminal with Scriptable Auto-Response.
 
@@ -40,6 +40,6 @@ This project is possible to build thanks to following libraries:
 
 ## License
 
-This project is licensed under [GPL-3.0](https://github.com/junian/termission/blob/master/LICENSE).
+This project is licensed under [GPL-3.0](https://github.com/junian/termqtt/blob/master/LICENSE).
 
 Copyright (C) 2018 Junian Triajianto

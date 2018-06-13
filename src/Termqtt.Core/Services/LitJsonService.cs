@@ -2,7 +2,7 @@
 using System.Text;
 using LitJson;
 
-namespace Juniansoft.Termission.Core.Services
+namespace Juniansoft.Termqtt.Core.Services
 {
     public class LitJsonService: IJsonService
     {

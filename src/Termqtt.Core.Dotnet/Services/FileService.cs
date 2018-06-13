@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Juniansoft.Termission.Core.Services
+namespace Juniansoft.Termqtt.Core.Services
 {
     public class FileService: IFileService
     {

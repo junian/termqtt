@@ -1,7 +1,7 @@
 ﻿using System;
 using Eto.Forms;
 
-namespace Juniansoft.Termission.GtkSharp
+namespace Juniansoft.Termqtt.GtkSharp
 {
 	class Program
 	{

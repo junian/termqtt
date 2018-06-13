@@ -9,9 +9,9 @@
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Juniansoft.Termission.Mobile.iOS</RootNamespace>
+    <RootNamespace>Juniansoft.Termqtt.Mobile.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>Termission.Mobile.iOS</AssemblyName>
+    <AssemblyName>Termqtt.Mobile.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -27,7 +27,7 @@
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
     <MtouchDebug>true</MtouchDebug>
-    <AssemblyName>Termission</AssemblyName>
+    <AssemblyName>Termqtt</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -38,7 +38,7 @@
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <AssemblyName>Termission</AssemblyName>
+    <AssemblyName>Termqtt</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>true</DebugSymbols>
@@ -161,13 +161,13 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Termission.Mobile\Termission.Mobile.csproj">
+    <ProjectReference Include="..\Termqtt.Mobile\Termqtt.Mobile.csproj">
       <Project>{E1FD3705-749B-4E56-8A09-3D067DE5184D}</Project>
-      <Name>Termission.Mobile</Name>
+      <Name>Termqtt.Mobile</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Termission.Core\Termission.Core.csproj">
+    <ProjectReference Include="..\Termqtt.Core\Termqtt.Core.csproj">
       <Project>{E22FBA6B-804E-48C4-BF28-A4B8B6642461}</Project>
-      <Name>Termission.Core</Name>
+      <Name>Termqtt.Core</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

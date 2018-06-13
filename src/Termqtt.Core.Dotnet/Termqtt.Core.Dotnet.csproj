@@ -2,11 +2,11 @@
 	
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
-    <RootNamespace>Juniansoft.Termission.Core</RootNamespace>
+    <RootNamespace>Juniansoft.Termqtt.Core</RootNamespace>
   </PropertyGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Termission.Core\Termission.Core.csproj" />
+    <ProjectReference Include="..\Termqtt.Core\Termqtt.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

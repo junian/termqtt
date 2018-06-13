@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Juniansoft.Termission.Mobile.Controls;
-using Juniansoft.Termission.Mobile.iOS.Controls;
+using Juniansoft.Termqtt.Mobile.Controls;
+using Juniansoft.Termqtt.Mobile.iOS.Controls;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
 [assembly: ExportRenderer(typeof(CodeMirrorEditor), typeof(CodeMirrorEditorRenderer))]
-namespace Juniansoft.Termission.Mobile.iOS.Controls
+namespace Juniansoft.Termqtt.Mobile.iOS.Controls
 {
     public class CodeMirrorEditorRenderer: WebViewRenderer
     {

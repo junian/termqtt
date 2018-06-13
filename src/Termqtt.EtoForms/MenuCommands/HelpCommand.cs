@@ -2,7 +2,7 @@
 using Eto;
 using Eto.Forms;
 
-namespace Juniansoft.Termission.EtoForms.MenuCommands
+namespace Juniansoft.Termqtt.EtoForms.MenuCommands
 {
     public class HelpCommand: Command
     {

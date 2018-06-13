@@ -1,7 +1,7 @@
 ﻿using System;
-using Juniansoft.Termission.Core.Services;
+using Juniansoft.Termqtt.Core.Services;
 
-namespace Juniansoft.Termission.GtkSharp.Services
+namespace Juniansoft.Termqtt.GtkSharp.Services
 {
     [Obsolete("Use EtoForms NotificationService instead")]
     public class NotificationService : INotificationService

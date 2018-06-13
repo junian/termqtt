@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Eto.Forms;
-using Juniansoft.Termission.Core;
+using Juniansoft.Termqtt.Core;
 
-namespace Juniansoft.Termission.EtoForms.MenuCommands
+namespace Juniansoft.Termqtt.EtoForms.MenuCommands
 {
     public class AboutCommand: Command
     {

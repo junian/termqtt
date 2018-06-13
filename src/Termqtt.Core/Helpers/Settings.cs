@@ -1,9 +1,9 @@
 // Helpers/Settings.cs
-using Juniansoft.Termission.Core.Enums;
+using Juniansoft.Termqtt.Core.Enums;
 using Plugin.Settings;
 using Plugin.Settings.Abstractions;
 
-namespace Juniansoft.Termission.Core.Helpers
+namespace Juniansoft.Termqtt.Core.Helpers
 {
     /// <summary>
     /// This is the Settings static class that can be used in your Core solution or in any

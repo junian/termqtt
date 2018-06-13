@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Juniansoft.Termission.Core.Extensions
+namespace Juniansoft.Termqtt.Core.Extensions
 {
     public static class StringExtension
     {

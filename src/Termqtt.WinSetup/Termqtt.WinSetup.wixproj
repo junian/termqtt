@@ -6,18 +6,18 @@
     <ProductVersion>3.10</ProductVersion>
     <ProjectGuid>b8d15188-f8de-470b-8b60-f41f3cb0da85</ProjectGuid>
     <SchemaVersion>2.0</SchemaVersion>
-    <OutputName>Termission</OutputName>
+    <OutputName>Termqtt</OutputName>
     <OutputType>Package</OutputType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
-    <DefineConstants>Debug;ProductVersion=0.1.7;UpgradeCode=159B5463-046E-4F65-B0D8-0C5E4C17706C;AppProject=Termission.WinForms;AppName=Termission;Manufacturer=Junian Triajianto;AppLink=http://junian.net;TargetFramework=net461;</DefineConstants>
+    <DefineConstants>Debug;ProductVersion=0.1.7;UpgradeCode=159B5463-046E-4F65-B0D8-0C5E4C17706C;AppProject=Termqtt.WinForms;AppName=Termqtt;Manufacturer=Junian Triajianto;AppLink=http://junian.net;TargetFramework=net461;</DefineConstants>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
-    <DefineConstants>ProductVersion=0.1.7;UpgradeCode=159B5463-046E-4F65-B0D8-0C5E4C17706C;AppProject=Termission.WinForms;AppName=Termission;Manufacturer=Junian Triajianto;AppLink=http://junian.net;TargetFramework=net461;</DefineConstants>
+    <DefineConstants>ProductVersion=0.1.7;UpgradeCode=159B5463-046E-4F65-B0D8-0C5E4C17706C;AppProject=Termqtt.WinForms;AppName=Termqtt;Manufacturer=Junian Triajianto;AppLink=http://junian.net;TargetFramework=net461;</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Product.wxs" />
@@ -37,16 +37,16 @@
     </WixExtension>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Termission.WinForms\Termission.WinForms.csproj">
-      <Name>Termission.WinForms</Name>
+    <ProjectReference Include="..\Termqtt.WinForms\Termqtt.WinForms.csproj">
+      <Name>Termqtt.WinForms</Name>
       <Project>{387f2b2d-115f-4982-80dc-2b84443d6266}</Project>
       <Private>True</Private>
       <DoNotHarvest>True</DoNotHarvest>
       <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
       <RefTargetDir>INSTALLFOLDER</RefTargetDir>
     </ProjectReference>
-    <ProjectReference Include="..\Termission.Wpf\Termission.Wpf.csproj">
-      <Name>Termission.Wpf</Name>
+    <ProjectReference Include="..\Termqtt.Wpf\Termqtt.Wpf.csproj">
+      <Name>Termqtt.Wpf</Name>
       <Project>{7a41414d-77e2-4827-87a9-5e716a4a419d}</Project>
       <Private>True</Private>
       <DoNotHarvest>True</DoNotHarvest>

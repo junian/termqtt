@@ -59,39 +59,39 @@
     </Directory>
 
     <DirectoryRef Id="APPLICATIONROOTDIRECTORY">
-      <Component Id="Termissionexe"
+      <Component Id="Termqttexe"
            Guid="*" DiskId="1">
-        <File Id="Termission.exe"
-				      Name="Termission.exe"
-				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termission.exe"
+        <File Id="Termqtt.exe"
+				      Name="Termqtt.exe"
+				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termqtt.exe"
 				      KeyPath="yes" />
       </Component>
-      <Component Id="Termissionexeconfig"
+      <Component Id="Termqttexeconfig"
 			           Guid="*" DiskId="1">
-        <File Id="Termission.exe.config"
-				      Name="Termission.exe.config"
-				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termission.exe.config"
+        <File Id="Termqtt.exe.config"
+				      Name="Termqtt.exe.config"
+				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termqtt.exe.config"
 				      KeyPath="yes" />
       </Component>
-      <Component Id="TermissionCoredll"
+      <Component Id="TermqttCoredll"
 			           Guid="*" DiskId="1">
-        <File Id="Termission.Core.dll"
-				      Name="Termission.Core.dll"
-				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termission.Core.dll"
+        <File Id="Termqtt.Core.dll"
+				      Name="Termqtt.Core.dll"
+				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termqtt.Core.dll"
 				      KeyPath="yes" />
       </Component>
-      <Component Id="TermissionCoreDotnetdll"
+      <Component Id="TermqttCoreDotnetdll"
 			           Guid="*" DiskId="1">
-        <File Id="Termission.Core.Dotnet.dll"
-				      Name="Termission.Core.Dotnet.dll"
-				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termission.Core.Dotnet.dll"
+        <File Id="Termqtt.Core.Dotnet.dll"
+				      Name="Termqtt.Core.Dotnet.dll"
+				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termqtt.Core.Dotnet.dll"
 				      KeyPath="yes" />
       </Component>
-      <Component Id="TermissionEtoFormsdll"
+      <Component Id="TermqttEtoFormsdll"
 			           Guid="*" DiskId="1">
-        <File Id="Termission.EtoForms.dll"
-				      Name="Termission.EtoForms.dll"
-				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termission.EtoForms.dll"
+        <File Id="Termqtt.EtoForms.dll"
+				      Name="Termqtt.EtoForms.dll"
+				      Source="..\$(var.AppProject)\bin\$(var.Configuration)\$(var.TargetFramework)\Termqtt.EtoForms.dll"
 				      KeyPath="yes" />
       </Component>
       <Component Id="Etodll"
@@ -172,7 +172,7 @@
         <Shortcut Id="ApplicationStartMenuShortcut"
                   Name="$(var.AppName) ($(var.ProductVersion))"
                   Description="$(var.AppName) by $(var.Manufacturer)"
-                  Target="[#Termission.exe]"
+                  Target="[#Termqtt.exe]"
                   Icon="ProductIcon"
                   WorkingDirectory="APPLICATIONROOTDIRECTORY"/>
 
@@ -203,7 +203,7 @@
         <Shortcut Id="ApplicationDesktopShortcut"
                   Name="$(var.AppName) ($(var.ProductVersion))"
                   Description="$(var.AppName) by $(var.Manufacturer)"
-                  Target="[#Termission.exe]"
+                  Target="[#Termqtt.exe]"
                   Icon="ProductIcon"
                   WorkingDirectory="APPLICATIONROOTDIRECTORY"/>
 
@@ -230,11 +230,11 @@
     </InstallExecuteSequence>
 
     <Feature Id="MainApplication" Title="Main Application" Level="1">
-      <ComponentRef Id="Termissionexe" />
-      <ComponentRef Id="Termissionexeconfig" />
-      <ComponentRef Id="TermissionCoredll" />
-      <ComponentRef Id="TermissionCoreDotnetdll" />
-      <ComponentRef Id="TermissionEtoFormsdll" />
+      <ComponentRef Id="Termqttexe" />
+      <ComponentRef Id="Termqttexeconfig" />
+      <ComponentRef Id="TermqttCoredll" />
+      <ComponentRef Id="TermqttCoreDotnetdll" />
+      <ComponentRef Id="TermqttEtoFormsdll" />
       <ComponentRef Id="Etodll" />
       <ComponentRef Id="Eto.WinFormsdll" />
       <ComponentRef Id="MvvmReadydll" />
@@ -261,7 +261,7 @@
               Value="Launch $(var.AppName)" />
 
     <Property Id="WixShellExecTarget"
-		          Value="[#Termission.exe]" />
+		          Value="[#Termqtt.exe]" />
     <CustomAction Id="LaunchApplication"
         BinaryKey="WixCA"
         DllEntry="WixShellExec"

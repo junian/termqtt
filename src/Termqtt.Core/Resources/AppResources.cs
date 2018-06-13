@@ -2,7 +2,7 @@
 using System.IO;
 using System.Reflection;
 
-namespace Juniansoft.Termission.Core.Resources
+namespace Juniansoft.Termqtt.Core.Resources
 {
     public static class AppResources
     {

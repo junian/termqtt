@@ -1,4 +1,4 @@
-﻿namespace Juniansoft.Termission.Core.Engines.Scripts
+﻿namespace Juniansoft.Termqtt.Core.Engines.Scripts
 {
     public class Program : IProgram { public byte[] Main(byte[] args) => throw new NotImplementedException(); }
 

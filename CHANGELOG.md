@@ -29,5 +29,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Default values of Serial port is based on `SerialPort` class.
 
-[Unreleased]: https://github.com/junian/termission/compare/v0.1.1...HEAD
-[0.1.1]: https://github.com/junian/termission/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/junian/termqtt/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/junian/termqtt/compare/v0.1.1...HEAD

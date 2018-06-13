@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Eto.Forms;
-using Juniansoft.Termission.Core.Services;
+using Juniansoft.Termqtt.Core.Services;
 
-namespace Juniansoft.Termission.EtoForms.Services
+namespace Juniansoft.Termqtt.EtoForms.Services
 {
     public class CrossDialog: ICrossDialog, INotificationService
     {

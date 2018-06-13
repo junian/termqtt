@@ -1,9 +1,9 @@
 ﻿using System;
 using Eto.Forms;
 using Juniansoft.MvvmReady;
-using Juniansoft.Termission.Core.ViewModels;
+using Juniansoft.Termqtt.Core.ViewModels;
 
-namespace Juniansoft.Termission.EtoForms.Forms
+namespace Juniansoft.Termqtt.EtoForms.Forms
 {
     public class HelpForm: Dialog
     {

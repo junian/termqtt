@@ -1,20 +1,20 @@
 ﻿using Eto;
 using Eto.Forms;
 using Juniansoft.MvvmReady;
-using Juniansoft.Termission.Core;
-using Juniansoft.Termission.Core.Services;
-using Juniansoft.Termission.EtoForms;
-using Juniansoft.Termission.EtoForms.Controls;
-using Juniansoft.Termission.EtoForms.Forms;
-using Juniansoft.Termission.Wpf.Controls;
-using Juniansoft.Termission.Wpf.Services;
+using Juniansoft.Termqtt.Core;
+using Juniansoft.Termqtt.Core.Services;
+using Juniansoft.Termqtt.EtoForms;
+using Juniansoft.Termqtt.EtoForms.Controls;
+using Juniansoft.Termqtt.EtoForms.Forms;
+using Juniansoft.Termqtt.Wpf.Controls;
+using Juniansoft.Termqtt.Wpf.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Juniansoft.Termission.Wpf
+namespace Juniansoft.Termqtt.Wpf
 {
 	class Program
 	{

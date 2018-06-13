@@ -4,8 +4,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net461</TargetFramework>
     <ApplicationIcon>..\..\resources\DevAppIcon.ico</ApplicationIcon>
-    <AssemblyName>Termission</AssemblyName>
-    <RootNamespace>Juniansoft.Termission.WinForms</RootNamespace>
+    <AssemblyName>Termqtt</AssemblyName>
+    <RootNamespace>Juniansoft.Termqtt.WinForms</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,10 +21,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Termission.Core\Termission.Core.csproj">
+    <ProjectReference Include="..\Termqtt.Core\Termqtt.Core.csproj">
       <TargetFramework>net461</TargetFramework>
     </ProjectReference>
-    <ProjectReference Include="..\Termission.Core.Dotnet\Termission.Core.Dotnet.csproj" />
-    <ProjectReference Include="..\Termission.EtoForms\Termission.EtoForms.csproj" />
+    <ProjectReference Include="..\Termqtt.Core.Dotnet\Termqtt.Core.Dotnet.csproj" />
+    <ProjectReference Include="..\Termqtt.EtoForms\Termqtt.EtoForms.csproj" />
   </ItemGroup>
 </Project>

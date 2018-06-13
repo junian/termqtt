@@ -2,9 +2,9 @@
 using System.IO;
 using System.IO.Ports;
 using System.Threading.Tasks;
-using Juniansoft.Termission.Core.Models;
+using Juniansoft.Termqtt.Core.Models;
 
-namespace Juniansoft.Termission.Core.Engines.Networks
+namespace Juniansoft.Termqtt.Core.Engines.Networks
 {
     public class SerialComEngine: BaseNetworkEngine
     {

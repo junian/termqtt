@@ -2,7 +2,7 @@
 using Xamarin.UITest;
 using Xamarin.UITest.Queries;
 
-namespace Termission.Mobile.UITests
+namespace Termqtt.Mobile.UITests
 {
     public class AppInitializer
     {

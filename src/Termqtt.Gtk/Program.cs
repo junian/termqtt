@@ -4,17 +4,17 @@ using Eto.GtkSharp;
 using Eto.GtkSharp.Forms;
 using Eto.GtkSharp.Forms.Controls;
 using Juniansoft.MvvmReady;
-using Juniansoft.Termission.Core;
-using Juniansoft.Termission.Core.Constants;
-using Juniansoft.Termission.Core.Engines.Scripts;
-using Juniansoft.Termission.Core.Services;
-using Juniansoft.Termission.EtoForms;
-using Juniansoft.Termission.EtoForms.Controls;
-using Juniansoft.Termission.EtoForms.Forms;
-using Juniansoft.Termission.GtkSharp.Controls;
-using Juniansoft.Termission.GtkSharp.Services;
+using Juniansoft.Termqtt.Core;
+using Juniansoft.Termqtt.Core.Constants;
+using Juniansoft.Termqtt.Core.Engines.Scripts;
+using Juniansoft.Termqtt.Core.Services;
+using Juniansoft.Termqtt.EtoForms;
+using Juniansoft.Termqtt.EtoForms.Controls;
+using Juniansoft.Termqtt.EtoForms.Forms;
+using Juniansoft.Termqtt.GtkSharp.Controls;
+using Juniansoft.Termqtt.GtkSharp.Services;
 
-namespace Juniansoft.Termission.GtkSharp
+namespace Juniansoft.Termqtt.GtkSharp
 {
     class Program
     {

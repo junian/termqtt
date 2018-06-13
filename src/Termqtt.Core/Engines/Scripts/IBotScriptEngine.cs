@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Juniansoft.Termission.Core.Engines.Scripts
+namespace Juniansoft.Termqtt.Core.Engines.Scripts
 {
     public interface IBotScriptEngine
     {

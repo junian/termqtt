@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Juniansoft.Termission.Core.Services
+namespace Juniansoft.Termqtt.Core.Services
 {
     public interface INotificationService
     {

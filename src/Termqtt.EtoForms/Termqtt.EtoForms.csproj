@@ -2,7 +2,7 @@
 	
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
-    <RootNamespace>Juniansoft.Termission.EtoForms</RootNamespace>
+    <RootNamespace>Juniansoft.Termqtt.EtoForms</RootNamespace>
   </PropertyGroup>
   
   <ItemGroup>
@@ -12,8 +12,8 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Termission.Core\Termission.Core.csproj" />
-    <ProjectReference Include="..\Termission.Core.Dotnet\Termission.Core.Dotnet.csproj" />
+    <ProjectReference Include="..\Termqtt.Core\Termqtt.Core.csproj" />
+    <ProjectReference Include="..\Termqtt.Core.Dotnet\Termqtt.Core.Dotnet.csproj" />
   </ItemGroup>
 
   <ItemGroup>

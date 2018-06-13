@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Termission.Mobile.iOS
+namespace Termqtt.Mobile.iOS
 {
     public class Application
     {

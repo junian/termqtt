@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Juniansoft.Termission.Core.Models
+namespace Juniansoft.Termqtt.Core.Models
 {
     //public class ShouldSerializeContractResolver : DefaultContractResolver
     //{

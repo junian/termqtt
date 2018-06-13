@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Juniansoft.Termission.EtoForms.Controls
+namespace Juniansoft.Termqtt.EtoForms.Controls
 {
     [Handler(typeof(ISyntaxHightlightTextArea))]
     public class SyntaxHightlightTextArea : TextArea

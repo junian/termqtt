@@ -4,8 +4,8 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <RootNamespace>Juniansoft.Termission.GtkSharp</RootNamespace>
-    <AssemblyName>Termission</AssemblyName>
+    <RootNamespace>Juniansoft.Termqtt.GtkSharp</RootNamespace>
+    <AssemblyName>Termqtt</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">

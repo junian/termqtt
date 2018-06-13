@@ -1,4 +1,4 @@
-﻿using Juniansoft.Termission.Core.Services;
+﻿using Juniansoft.Termqtt.Core.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Juniansoft.Termission.WinForms.Services
+namespace Juniansoft.Termqtt.WinForms.Services
 {
     [Obsolete("Use EtoForms NotificationService instead")]
     public class NotificationService : INotificationService

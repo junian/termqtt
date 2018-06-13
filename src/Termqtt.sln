@@ -3,31 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.WinForms", "Termission.WinForms\Termission.WinForms.csproj", "{387F2B2D-115F-4982-80DC-2B84443D6266}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.WinForms", "Termqtt.WinForms\Termqtt.WinForms.csproj", "{387F2B2D-115F-4982-80DC-2B84443D6266}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.Wpf", "Termission.Wpf\Termission.Wpf.csproj", "{7A41414D-77E2-4827-87A9-5E716A4A419D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.Wpf", "Termqtt.Wpf\Termqtt.Wpf.csproj", "{7A41414D-77E2-4827-87A9-5E716A4A419D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.XamMac", "Termission.XamMac\Termission.XamMac.csproj", "{47C59A57-6220-4C6C-ADBB-5F1C038A3012}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.XamMac", "Termqtt.XamMac\Termqtt.XamMac.csproj", "{47C59A57-6220-4C6C-ADBB-5F1C038A3012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.Core", "Termission.Core\Termission.Core.csproj", "{E22FBA6B-804E-48C4-BF28-A4B8B6642461}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.Core", "Termqtt.Core\Termqtt.Core.csproj", "{E22FBA6B-804E-48C4-BF28-A4B8B6642461}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.Core.Dotnet", "Termission.Core.Dotnet\Termission.Core.Dotnet.csproj", "{696EBE0F-E2AF-46D5-A577-D6FF2F2860A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.Core.Dotnet", "Termqtt.Core.Dotnet\Termqtt.Core.Dotnet.csproj", "{696EBE0F-E2AF-46D5-A577-D6FF2F2860A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.Core.Mono", "Termission.Core.Mono\Termission.Core.Mono.csproj", "{D2A838BC-1003-4169-A2E0-16CE0A5326E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.Core.Mono", "Termqtt.Core.Mono\Termqtt.Core.Mono.csproj", "{D2A838BC-1003-4169-A2E0-16CE0A5326E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.EtoForms", "Termission.EtoForms\Termission.EtoForms.csproj", "{24C1E28F-25B3-4AD3-9053-A3CB307DEE54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.EtoForms", "Termqtt.EtoForms\Termqtt.EtoForms.csproj", "{24C1E28F-25B3-4AD3-9053-A3CB307DEE54}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mono.TextEditor", "Mono.TextEditor\Mono.TextEditor.csproj", "{A2329308-3751-4DBD-9A75-5F7B8B024625}"
 EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Termission.WinSetup", "Termission.WinSetup\Termission.WinSetup.wixproj", "{B8D15188-F8DE-470B-8B60-F41F3CB0DA85}"
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "Termqtt.WinSetup", "Termqtt.WinSetup\Termqtt.WinSetup.wixproj", "{B8D15188-F8DE-470B-8B60-F41F3CB0DA85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.Mobile", "Termission.Mobile\Termission.Mobile.csproj", "{E1FD3705-749B-4E56-8A09-3D067DE5184D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.Mobile", "Termqtt.Mobile\Termqtt.Mobile.csproj", "{E1FD3705-749B-4E56-8A09-3D067DE5184D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.Mobile.Android", "Termission.Mobile.Android\Termission.Mobile.Android.csproj", "{CFCA35FD-7D79-4DD6-8208-91F701DCAC1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.Mobile.Android", "Termqtt.Mobile.Android\Termqtt.Mobile.Android.csproj", "{CFCA35FD-7D79-4DD6-8208-91F701DCAC1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.Mobile.iOS", "Termission.Mobile.iOS\Termission.Mobile.iOS.csproj", "{F6A287A7-A8EF-4890-940E-64C069B86B1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.Mobile.iOS", "Termqtt.Mobile.iOS\Termqtt.Mobile.iOS.csproj", "{F6A287A7-A8EF-4890-940E-64C069B86B1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.Mobile.UITests", "Termission.Mobile.UITests\Termission.Mobile.UITests.csproj", "{B19C892E-2628-4CA7-AD27-08D406A3B14B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.Mobile.UITests", "Termqtt.Mobile.UITests\Termqtt.Mobile.UITests.csproj", "{B19C892E-2628-4CA7-AD27-08D406A3B14B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C0614B59-7A6D-4A9E-BD85-ECA1B8560F41}"
 EndProject
@@ -39,9 +39,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{8F9B01B3-32B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Setup", "Setup", "{5FA978B9-CD43-41E9-B372-E562A318FCCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.Gtk", "Termission.Gtk\Termission.Gtk.csproj", "{88D40798-93A7-4FD9-AFC6-2133B7051B42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.Gtk", "Termqtt.Gtk\Termqtt.Gtk.csproj", "{88D40798-93A7-4FD9-AFC6-2133B7051B42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termission.GtkSharp", "Termission.GtkSharp\Termission.GtkSharp.csproj", "{C0A5A19B-954D-4693-AB1A-75DA43A49BFA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termqtt.GtkSharp", "Termqtt.GtkSharp\Termqtt.GtkSharp.csproj", "{C0A5A19B-954D-4693-AB1A-75DA43A49BFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

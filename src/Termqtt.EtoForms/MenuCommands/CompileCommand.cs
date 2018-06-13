@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Eto;
-using Juniansoft.Termission.EtoForms.Resources;
+using Juniansoft.Termqtt.EtoForms.Resources;
 
-namespace Juniansoft.Termission.EtoForms.MenuCommands
+namespace Juniansoft.Termqtt.EtoForms.MenuCommands
 {
     public class CompileCommand: Command
     {

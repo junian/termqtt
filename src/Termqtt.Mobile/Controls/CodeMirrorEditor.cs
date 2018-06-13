@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Text;
 using System.Threading.Tasks;
-using Juniansoft.Termission.Core.Resources;
-using Juniansoft.Termission.Mobile.Resources;
+using Juniansoft.Termqtt.Core.Resources;
+using Juniansoft.Termqtt.Mobile.Resources;
 using Xamarin.Forms;
 
-namespace Juniansoft.Termission.Mobile.Controls
+namespace Juniansoft.Termqtt.Mobile.Controls
 {
     public class CodeMirrorEditor: WebView
     {

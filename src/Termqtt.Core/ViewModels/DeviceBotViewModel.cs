@@ -4,13 +4,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Juniansoft.MvvmReady;
-using Juniansoft.Termission.Core.Engines.Scripts;
-using Juniansoft.Termission.Core.Enums;
-using Juniansoft.Termission.Core.Helpers;
-using Juniansoft.Termission.Core.Models;
-using Juniansoft.Termission.Core.Services;
+using Juniansoft.Termqtt.Core.Engines.Scripts;
+using Juniansoft.Termqtt.Core.Enums;
+using Juniansoft.Termqtt.Core.Helpers;
+using Juniansoft.Termqtt.Core.Models;
+using Juniansoft.Termqtt.Core.Services;
 
-namespace Juniansoft.Termission.Core.ViewModels
+namespace Juniansoft.Termqtt.Core.ViewModels
 {
     public class DeviceBotViewModel: CoreViewModel
     {

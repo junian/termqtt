@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Juniansoft.Termission.Mobile.Android.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Juniansoft.Termqtt.Mobile.Android.Resource", IsApplication=true)]
 
-namespace Juniansoft.Termission.Mobile.Android
+namespace Juniansoft.Termqtt.Mobile.Android
 {
 	
 	
@@ -26,7 +26,7 @@ namespace Juniansoft.Termission.Mobile.Android
 		
 		public static void UpdateIdValues()
 		{
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Juniansoft.Termission.Mobile.Android.Resource.Attribute.actionBarSize;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Juniansoft.Termqtt.Mobile.Android.Resource.Attribute.actionBarSize;
 		}
 		
 		public partial class Animation

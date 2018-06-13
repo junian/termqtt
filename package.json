@@ -1,5 +1,5 @@
 {
-  "name": "Termission",
+  "name": "Termqtt",
   "version": "0.8.0",
   "description": "Cross-platform Serial/TCP Terminal with Scriptable Auto-Response.",
   "main": "index.js",
@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/junian/termission.git"
+    "url": "git+https://github.com/junian/termqtt.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/junian/termission/issues"
+    "url": "https://github.com/junian/termqtt/issues"
   },
-  "homepage": "https://github.com/junian/termission#readme"
+  "homepage": "https://github.com/junian/termqtt#readme"
 }

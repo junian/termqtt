@@ -3,9 +3,9 @@ using System.ComponentModel;
 using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
-using Juniansoft.Termission.Core.Events;
+using Juniansoft.Termqtt.Core.Events;
 
-namespace Juniansoft.Termission.Core.Engines.Networks
+namespace Juniansoft.Termqtt.Core.Engines.Networks
 {
     public abstract class BaseNetworkEngine: INetworkEngine
     {

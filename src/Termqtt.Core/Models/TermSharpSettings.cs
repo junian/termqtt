@@ -1,7 +1,7 @@
 ﻿using System;
-using Juniansoft.Termission.Core.Enums;
+using Juniansoft.Termqtt.Core.Enums;
 
-namespace Juniansoft.Termission.Core.Models
+namespace Juniansoft.Termqtt.Core.Models
 {
     public class TermSharpSettings
     {
