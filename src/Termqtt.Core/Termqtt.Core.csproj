@@ -5,7 +5,7 @@
     <RootNamespace>Juniansoft.Termqtt.Core</RootNamespace>
     <Title>Termqtt</Title>
     <Copyright>Copyright © 2018</Copyright>
-    <Description>Cross-platform Serial / TCP terminal</Description>
+    <Description>Cross-platform MQTT terminal</Description>
     <Company>Juniansoft</Company>
     <Product>Termqtt</Product>
     <AssemblyVersion>0.1.7</AssemblyVersion>
