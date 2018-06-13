@@ -20,6 +20,7 @@
     <PackageReference Include="LitJson" Version="0.13.0" />
     <PackageReference Include="Xam.Plugins.Settings" Version="3.1.1" />
     <PackageReference Include="Jint" Version="2.11.58" />
+    <PackageReference Include="MQTTnet" Version="2.7.5" />
   </ItemGroup>
 
   <ItemGroup>
